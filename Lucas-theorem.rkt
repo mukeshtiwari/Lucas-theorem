@@ -57,22 +57,3 @@
   (let* ([fact (prime-divisors M)]
          [luca (map (λ(p) (lucas-binom-mod-prime m n p)) fact)])
     (solve-chinese luca fact)))
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
